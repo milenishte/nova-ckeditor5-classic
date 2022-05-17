@@ -1,6 +1,6 @@
 {
-    "name": "numaxlab/nova-ckeditor5-classic",
-    "description": "A Laravel Nova CKEditor5 Classic Field.",
+    "name": "milenishte/nova-ckeditor5-classic-with-html-embed",
+    "description": "Based on numaxlab/nova-ckeditor5-classic: A Laravel Nova CKEditor5 Classic Field + HTML Embed.",
     "keywords": [
         "laravel",
         "nova",

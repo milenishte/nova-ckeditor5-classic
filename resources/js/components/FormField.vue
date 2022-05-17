@@ -19,7 +19,7 @@
 <script>
 import { FormField, HandlesValidationErrors } from 'laravel-nova'
 import CKEditor from '@ckeditor/ckeditor5-vue'
-import ClassicEditor from '@ckeditor/ckeditor5-build-classic'
+import CustomEditor from 'ckeditor5-build-with-html-embed'
 import NovaCKEditor5UploadAdapter from '../ckeditor5/upload-adapter'
 
 export default {
@@ -33,7 +33,7 @@ export default {
 
     data () {
         return {
-            editor: ClassicEditor,
+            editor: CustomEditor,
             defaultEditorConfig: {
                 nova: {
                     resourceName: this.resourceName,

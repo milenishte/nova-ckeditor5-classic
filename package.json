@@ -12,10 +12,12 @@
     "devDependencies": {
         "cross-env": "^5.0.0",
         "laravel-mix": "^1.0",
-        "laravel-nova": "^1.0"
+        "laravel-nova": "^1.0",
+        "resolve-url-loader": "^5.0.0",
+        "sass-loader": "^7.1.0"
     },
     "dependencies": {
-        "@ckeditor/ckeditor5-build-classic": "^12.4.0",
+        "ckeditor5-build-with-html-embed": "git+https://github.com/milenishte/ckeditor5-build-with-html-embed",
         "@ckeditor/ckeditor5-vue": "^1.0.0",
         "vue": "^2.5.0"
     }
